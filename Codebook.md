@@ -66,7 +66,6 @@ Dataset Descriptions
 
 Raw Dataset | Tidy Dataset
 --- | ---
-
 Raw data from observations as described above | Adjusted variable names plus calculated averages of the raw data
 
 Variables
