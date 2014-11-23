@@ -19,3 +19,20 @@ You should create one R script called run_analysis.R that does the following.
 4. Appropriately labels the data set with descriptive variable names. 
 5. From the data set in step 4, creates a second, independent tidy data set with the average 
    of each variable for each activity and each subject.
+
+run_analysis.R steps
+====================
+1. The enviromennt is set up and initialized
+2. If the data has not been downloaded yet, it will be downloaded and unzipped 
+3. We change the working directory to the unzipped data directory
+4. The training and test data are read in from the their respective X files
+5. The features and subject data for both train and test are read in from their respective 
+   features and activity_labels files
+6. The labels are then adjusted to something more descriptive
+7. Both the train and test datasets are converted to data tables
+8. These data tables are then row binded to create the raw dataset
+9. A tidy dataset is created from the raw dataset after calulating the mean each variable for 
+   each activity and each subject 
+10. The variable names in the tidy dataset are then adjusted to create a more human readable set
+    of variables
+11. The tidy dataset is then written out to a text file and also returned as the program output
