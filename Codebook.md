@@ -67,6 +67,7 @@ Dataset Descriptions
 Raw Dataset | Tidy Dataset
 --- | ---
 Raw data from observations as described above | Adjusted variable names plus calculated averages of the raw data
+Classes ‘data.table’ and 'data.frame':	10299 obs. of  68 variables | Classes ‘data.table’ and 'data.frame':	180 obs. of  68 variables
 
 Variables
 =========
