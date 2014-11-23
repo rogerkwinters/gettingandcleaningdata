@@ -55,8 +55,80 @@ The following files are available for the train and test data. Their description
    each window sample. The units are radians/second. 
 
 Notes: 
-======
-- Features are normalized and bounded within [-1,1].
-- Each feature vector is a row on the text file.
+
+1. Features are normalized and bounded within [-1,1].
+2. Each feature vector is a row on the text file.
 
 For more information about this dataset contact: activityrecognition@smartlab.ws
+
+Variables
+=========
+
+activity					activity
+subject						subject
+tBodyAcc-mean()-X			timeBodyAccmeanX
+tBodyAcc-mean()-Y			timeBodyAccmeanY
+tBodyAcc-mean()-Z			timeBodyAccmeanZ
+tBodyAcc-std()-X			timeBodyAccstdX
+tBodyAcc-std()-Y			timeBodyAccstdY
+tBodyAcc-std()-Z			timeBodyAccstdZ
+tGravityAcc-mean()-X		timeGravityAccmeanX
+tGravityAcc-mean()-Y		timeGravityAccmeanY
+tGravityAcc-mean()-Z		timeGravityAccmeanZ
+tGravityAcc-std()-X			timeGravityAccstdX
+tGravityAcc-std()-Y			timeGravityAccstdY
+tGravityAcc-std()-Z			timeGravityAccstdZ
+tBodyAccJerk-mean()-X		timeBodyAccJerkmeanX
+tBodyAccJerk-mean()-Y		timeBodyAccJerkmeanY
+tBodyAccJerk-mean()-Z		timeBodyAccJerkmeanZ
+tBodyAccJerk-std()-X		timeBodyAccJerkstdX
+tBodyAccJerk-std()-Y		timeBodyAccJerkstdY
+tBodyAccJerk-std()-Z		timeBodyAccJerkstdZ
+tBodyGyro-mean()-X			timeBodyGyromeanX
+tBodyGyro-mean()-Y			timeBodyGyromeanY
+tBodyGyro-mean()-Z			timeBodyGyromeanZ
+tBodyGyro-std()-X			timeBodyGyrostdX
+tBodyGyro-std()-Y			timeBodyGyrostdY
+tBodyGyro-std()-Z			timeBodyGyrostdZ
+tBodyGyroJerk-mean()-X		timeBodyGyroJerkmeanX
+tBodyGyroJerk-mean()-Y		timeBodyGyroJerkmeanY
+tBodyGyroJerk-mean()-Z		timeBodyGyroJerkmeanZ
+tBodyGyroJerk-std()-X		timeBodyGyroJerkstdX
+tBodyGyroJerk-std()-Y		timeBodyGyroJerkstdY
+tBodyGyroJerk-std()-Z		timeBodyGyroJerkstdZ
+tBodyAccMag-mean()			timeBodyAccMagmean
+tBodyAccMag-std()			timeBodyAccMagstd
+tGravityAccMag-mean()		timeGravityAccMagmean
+tGravityAccMag-std()		timeGravityAccMagstd
+tBodyAccJerkMag-mean()		timeBodyAccJerkMagmean
+tBodyAccJerkMag-std()		timeBodyAccJerkMagstd
+tBodyGyroMag-mean()			timeBodyGyroMagmean
+tBodyGyroMag-std()			timeBodyGyroMagstd
+tBodyGyroJerkMag-mean()		timeBodyGyroJerkMagmean
+tBodyGyroJerkMag-std()		timeBodyGyroJerkMagstd
+fBodyAcc-mean()-X			frequencyBodyAccmeanX
+fBodyAcc-mean()-Y			frequencyBodyAccmeanY
+fBodyAcc-mean()-Z			frequencyBodyAccmeanZ
+fBodyAcc-std()-X			frequencyBodyAccstdX
+fBodyAcc-std()-Y			frequencyBodyAccstdY
+fBodyAcc-std()-Z			frequencyBodyAccstdZ
+fBodyAccJerk-mean()-X		frequencyBodyAccJerkmeanX
+fBodyAccJerk-mean()-Y		frequencyBodyAccJerkmeanY
+fBodyAccJerk-mean()-Z		frequencyBodyAccJerkmeanZ
+fBodyAccJerk-std()-X		frequencyBodyAccJerkstdX
+fBodyAccJerk-std()-Y		frequencyBodyAccJerkstdY
+fBodyAccJerk-std()-Z		frequencyBodyAccJerkstdZ
+fBodyGyro-mean()-X			frequencyBodyGyromeanX
+fBodyGyro-mean()-Y			frequencyBodyGyromeanY
+fBodyGyro-mean()-Z			frequencyBodyGyromeanZ
+fBodyGyro-std()-X			frequencyBodyGyrostdX
+fBodyGyro-std()-Y			frequencyBodyGyrostdY
+fBodyGyro-std()-Z			frequencyBodyGyrostdZ
+fBodyAccMag-mean()			frequencyBodyAccMagmean
+fBodyAccMag-std()			frequencyBodyAccMagstd
+fBodyBodyAccJerkMag-mean()	frequencybodyAccJerkMagmean
+fBodyBodyAccJerkMag-std()	frequencybodyAccJerkMagstd
+fBodyBodyGyroMag-mean()		frequencybodyGyroMagmean
+fBodyBodyGyroMag-std()		frequencybodyGyroMagstd
+fBodyBodyGyroJerkMag-mean()	frequencybodyGyroJerkMagmean
+fBodyBodyGyroJerkMag-std()	frequencybodyGyroJerkMagstd
