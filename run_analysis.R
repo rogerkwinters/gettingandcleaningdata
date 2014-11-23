@@ -65,7 +65,7 @@ testdt <- data.table(testdata)
 rawdataset <- rbind(traindt, testdt)
 
 ##
-## Now create a tidy dataset
+## Now create a tidy dataset and calculate the mean of each variable for each activity and each subject
 ##
 tidydataset <- rawdataset[, lapply(.SD, mean), by=list(activity, subject)]
 
