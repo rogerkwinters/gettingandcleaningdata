@@ -132,3 +132,8 @@ fBodyBodyGyroMag-mean()		frequencybodyGyroMagmean
 fBodyBodyGyroMag-std()		frequencybodyGyroMagstd
 fBodyBodyGyroJerkMag-mean()	frequencybodyGyroJerkMagmean
 fBodyBodyGyroJerkMag-std()	frequencybodyGyroJerkMagstd
+
+Markdown | Less | Pretty
+--- | --- | ---
+*Still* | `renders` | **nicely**
+1 | 2 | 3
