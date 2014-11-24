@@ -60,7 +60,7 @@ traindt <- data.table(traindata)
 testdt <- data.table(testdata)
 
 ##
-## Row bind the two datasets
+## Row bind the two data tables
 ##
 rawdataset <- rbind(traindt, testdt)
 
