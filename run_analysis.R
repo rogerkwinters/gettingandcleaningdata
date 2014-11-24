@@ -90,7 +90,7 @@ names <- gsub("-std", "std", names)
 setnames(tidydataset, names)
 
 ##
-## Write the tidy data set to a text file
+## Write the tidy dataset to a text file
 ##
 setwd("~/Coursera/Getting and Cleaning Data")
 write.table(tidydataset, file = "tidydata.txt", row.names = FALSE)
